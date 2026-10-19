@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 학습·평가 데이터는 저장소에 올리지 않는다 (위반 예제가 섞여 있다). 형식 예시만 둔다
+data/*
+!data/sample.jsonl
+
+# 학습한 헤드·결과물
+heads/
+results/
+*.pt

@@ -1,0 +1,8 @@
+# torch 는 서버의 CUDA 버전에 맞는 휠을 먼저 설치한다 (README 2단계)
+torch>=2.4.0
+# Qwen3.5 를 아는 버전이 필요하다. scripts/check_env.py 로 확인하고, 모르면 pip install -U transformers
+transformers
+accelerate
+fastapi
+uvicorn
+pydantic>=2
